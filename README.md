@@ -20,4 +20,12 @@ Add the following functions:
 
 After the DLL is loaded, the DLL is automatically deleted.
 
+Like this:
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/ExcelDllLoader/master/1.gif)
+
 But if you change the path that DLL saves(eg: c:\test),the dll will not be automatically deleted.
+
+Like this:
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/ExcelDllLoader/master/2.gif)
