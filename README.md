@@ -16,7 +16,7 @@ Add the following functions:
 - Save the dll to %appdata%\Microsoft\Windows\Recent
 - Load it via the Excel.Application object's RegisterXLL() method
 
-** Note:**
+** Note: **
 
 After the DLL is loaded, the DLL is automatically deleted.
 
