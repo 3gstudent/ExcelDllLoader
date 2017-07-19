@@ -1,7 +1,7 @@
 # ExcelDllLoader
 Execute DLL via the Excel.Application object's RegisterXLL() method
 
-Leran from Ryan Hanson‏ @ryHanson
+Learn from Ryan Hanson‏ @ryHanson
 
 Link：
 
