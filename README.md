@@ -1,6 +1,8 @@
 # ExcelDllLoader
 Execute DLL via the Excel.Application object's RegisterXLL() method
 
+**Need install Microsoft Office first**
+
 Learn from Ryan Hanson‏ @ryHanson
 
 Link：
