@@ -33,3 +33,7 @@ Like this:
 ![Alt text](https://raw.githubusercontent.com/3gstudent/ExcelDllLoader/master/2.gif)
 
 :)
+
+Maybe explorer.exe cheats me.
+
+
