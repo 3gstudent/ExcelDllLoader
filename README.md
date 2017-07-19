@@ -29,3 +29,5 @@ But if you change the path that DLL saves(eg: c:\test),the dll will not be autom
 Like this:
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/ExcelDllLoader/master/2.gif)
+
+:)
