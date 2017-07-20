@@ -18,6 +18,13 @@ ExcelDllLoader.js:
 - Save the dll to %appdata%\Microsoft\Windows\Recent
 - Load it via the Excel.Application object's RegisterXLL() method
 
+ExcelDllLoader(Base64decode).js：
+
+- Download the Base64 encoded text from Github
+- Base64 Decoded and get the calc.dll
+- Save the dll to c:\test\calc.dll
+- Load it via the Excel.Application object's RegisterXLL() method
+
 **Note:**
 
 After the DLL is loaded, the DLL is automatically deleted.
