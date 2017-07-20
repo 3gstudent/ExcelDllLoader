@@ -11,7 +11,7 @@ https://gist.github.com/ryhanson/227229866af52e2d963cf941af135a52
 
 License: BSD 3-Clause
 
-Add the following functions:
+ExcelDllLoader.js:
 
 - Check if Microsoft Office has been installed
 - Download the dll from Github
