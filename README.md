@@ -21,7 +21,7 @@ ExcelDllLoader.js:
 ExcelDllLoader(Base64decode).js：
 
 - Download the Base64 encoded text from Github
-- Base64 Decoded and get the calc.dll
+- Base64 decoded and get the calc.dll
 - Save the dll to c:\test\calc.dll
 - Load it via the Excel.Application object's RegisterXLL() method
 
