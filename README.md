@@ -44,3 +44,8 @@ Like this:
 Maybe explorer.exe cheats me.
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/ExcelDllLoader/master/3.png)
+
+More details:
+
+https://3gstudent.github.io/3gstudent.github.io/Use-Excel.Application-object's-RegisterXLL()-method-to-load-dll/
+
