@@ -47,5 +47,5 @@ Maybe explorer.exe cheats me.
 
 More details:
 
-https://3gstudent.github.io/3gstudent.github.io/Use-Excel.Application-object's-RegisterXLL()-method-to-load-dll/
+https://3gstudent.github.io/Use-Excel.Application-object's-RegisterXLL()-method-to-load-dll
 
